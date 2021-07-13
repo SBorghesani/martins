@@ -28,7 +28,7 @@ h2 u {
     color: black;
 }
 
-.main {
+/* .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -50,13 +50,13 @@ article img {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-}
+} */
 
-.fishDetails {
+/* .fishDetails {
     border-style: groove;
     border-color: lightcoral;
     width: 100%;
-}
+} */
 
 aside {
     border-style: groove;
@@ -77,6 +77,8 @@ section {
 }
 
 .my-travels__text {
+    display: flex;
+    flex-wrap: wrap;
     width: 40%;
     padding-right: 5em;
     flex-direction: column;
