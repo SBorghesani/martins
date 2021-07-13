@@ -1,0 +1,89 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 7em;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border-style:double; */
+    border-bottom: groove;
+    border-color: lightcoral;
+}
+
+header li {float: left;}
+  
+header li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+h2 u {
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: 100%;
+    padding-top: 4em;
+}
+
+article {
+    width: 40%;
+    display: flex;
+    color: whitesmoke; 
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 0 5em 2em 5em;
+    min-width: 200px;
+}
+
+article img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.fishDetails {
+    border-style: groove;
+    border-color: lightcoral;
+    width: 100%;
+}
+
+aside {
+    border-style: groove;
+    border-color: lightcoral;
+    margin: 2em;
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding: 1em 1em;
+    color: whitesmoke;
+}
+
+section {
+    color: whitesmoke;
+    /* background-color: rgb(46, 101, 173); */
+    padding: 1em;
+}
+
+.my-travels__text {
+    width: 40%;
+    padding-right: 5em;
+    flex-direction: column;
+}
+
+section .my-travels {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+}
